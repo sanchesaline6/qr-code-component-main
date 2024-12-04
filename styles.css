@@ -87,3 +87,32 @@ body {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 375px) {
+    #content {
+        margin: 0 var(--spacing-200);
+        padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
+    }
+
+    #qr-code {
+        width: 288px; 
+        height: auto;
+    }
+
+    #text-content {
+        width: 288px;
+        height: auto; 
+    }
+
+    #title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    #text-content p {
+        font-size: 15px;
+        line-height: 19px;
+    }
+}
+
+
